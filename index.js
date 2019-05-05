@@ -19,3 +19,12 @@ function johnLennonFacts(facts) {
   console.log(secondEmptyArray);
   return secondEmptyArray;
 }
+
+function iLoveTheBeatles(number) {
+  var emptyArray = [];
+  var number = number + 1;
+  do {
+    emptyArray.push("I love the Beatles!");
+  } while (number < 15);
+  
+}
