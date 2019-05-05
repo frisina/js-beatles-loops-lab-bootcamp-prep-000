@@ -25,7 +25,7 @@ function iLoveTheBeatles(number) {
 
   do {
     var incrementNumber = number++;
-    emptyArray.push(`I love the Beatles!` * incrementNumber);
+    emptyArray.push(`I love the Beatles!`);
   } while (incrementNumber < 15);
 return emptyArray;
 }
