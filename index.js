@@ -22,9 +22,10 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   var emptyArray = [];
-  var incrementNumber = number + 1;
+
 
   do {
+    var incrementNumber = number + 1;
     emptyArray.push(`I love the Beatles!`);
   } while (incrementNumber < 15);
 return emptyArray;
